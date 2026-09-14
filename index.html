@@ -31,12 +31,21 @@
     </nav>
 
     <!-- Hero Section -->
-    <section id="home" class="min-h-screen flex flex-col justify-center items-center px-8 border-b border-black pt-24">
-        <div class="text-center space-y-8 max-w-4xl">
-            <h1 class="text-6xl md:text-8xl font-light tracking-tighter uppercase">KM Arti[cite: 1]</h1>
-            <p class="text-xl md:text-2xl font-light tracking-wide text-gray-700">Project Associate, Department of Ocean Engineering, IIT Madras[cite: 1]</p>
-            <div class="pt-8">
-                <a href="#contact" class="inline-block border border-black px-12 py-4 uppercase tracking-widest text-sm font-bold hover:bg-black hover:text-white transition-colors duration-300">Get in Touch</a>
+    <section id="home" class="min-h-screen border-b border-black pt-24 flex items-center">
+        <div class="max-w-7xl mx-auto w-full px-8 grid grid-cols-1 md:grid-cols-2 gap-16 items-center py-16">
+            <!-- Text Content -->
+            <div class="space-y-8">
+                <h1 class="text-6xl md:text-8xl font-light tracking-tighter uppercase leading-none">KM Arti</h1>
+                <p class="text-xl md:text-2xl font-light tracking-wide text-gray-700">Project Associate, Department of Ocean Engineering, IIT Madras</p>
+                <div class="pt-8 flex flex-wrap gap-4">
+                    <a href="#contact" class="inline-block border border-black px-12 py-4 uppercase tracking-widest text-sm font-bold hover:bg-black hover:text-white transition-colors duration-300">Get in Touch</a>
+                </div>
+            </div>
+            <!-- Profile Image -->
+            <div class="relative w-full aspect-[3/4] md:aspect-[4/5] border border-black group overflow-hidden">
+                <!-- Replace src with your actual portrait image -->
+                <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=800" alt="KM Arti Profile Portrait" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700">
+                <div class="absolute inset-0 border-[16px] border-white/10 pointer-events-none"></div>
             </div>
         </div>
     </section>
@@ -48,9 +57,9 @@
                 <h2 class="uppercase tracking-widest text-sm font-bold sticky top-32">About</h2>
             </div>
             <div class="md:col-span-3 space-y-6 text-lg md:text-xl leading-relaxed">
-                <p>Biotechnology graduate with hands-on laboratory and quality control experience in life sciences.[cite: 1]</p>
-                <p>Experienced in laboratory documentation, analytical testing, data analysis, technical reporting, and maintaining SOP-compliant records.[cite: 1]</p>
-                <p>Skilled in MS Excel, Google Workspace, and scientific documentation.[cite: 1] Strong interest in bioprocess development, fermentation technology, downstream processing, and industrial biotechnology.[cite: 1]</p>
+                <p>Biotechnology graduate with hands-on laboratory and quality control experience in life sciences.</p>
+                <p>Experienced in laboratory documentation, analytical testing, data analysis, technical reporting, and maintaining SOP-compliant records.</p>
+                <p>Skilled in MS Excel, Google Workspace, and scientific documentation. Strong interest in bioprocess development, fermentation technology, downstream processing, and industrial biotechnology.</p>
             </div>
         </div>
     </section>
@@ -61,35 +70,57 @@
             <div class="md:col-span-1">
                 <h2 class="uppercase tracking-widest text-sm font-bold sticky top-32">Work Experience</h2>
             </div>
-            <div class="md:col-span-3 space-y-16">
+            <div class="md:col-span-3 space-y-24">
+                
                 <!-- Role 1 -->
-                <div>
-                    <div class="mb-6">
-                        <h3 class="text-2xl font-light uppercase">Project Associate[cite: 1]</h3>
-                        <p class="text-sm font-bold tracking-widest mt-2 uppercase">Department of Ocean Engineering, IIT Madras | July 2026 - Present[cite: 1]</p>
+                <div class="grid grid-cols-1 xl:grid-cols-2 gap-12 items-start">
+                    <div>
+                        <div class="mb-6">
+                            <h3 class="text-2xl font-light uppercase">Project Associate</h3>
+                            <p class="text-sm font-bold tracking-widest mt-2 uppercase text-gray-500">Department of Ocean Engineering, IIT Madras | July 2026 - Present</p>
+                        </div>
+                        <ul class="list-none space-y-4 text-lg">
+                            <li class="flex gap-4"><span class="block border-t border-black w-4 mt-3"></span> Assisting in research data collection, organization, and documentation.</li>
+                            <li class="flex gap-4"><span class="block border-t border-black w-4 mt-3"></span> Preparing reports, spreadsheet and project documentation.</li>
+                            <li class="flex gap-4"><span class="block border-t border-black w-4 mt-3"></span> Maintaining accurate electronic records and project-related data.</li>
+                            <li class="flex gap-4"><span class="block border-t border-black w-4 mt-3"></span> Performing data analysis and visualization using MS Excel.</li>
+                            <li class="flex gap-4"><span class="block border-t border-black w-4 mt-3"></span> Preparing presentations and ensuring systematic organization of research documents.</li>
+                        </ul>
                     </div>
-                    <ul class="list-none space-y-4 text-lg">
-                        <li class="flex gap-4"><span class="block border-t border-black w-4 mt-3"></span> Assisting in research data collection, organization, and documentation.[cite: 1]</li>
-                        <li class="flex gap-4"><span class="block border-t border-black w-4 mt-3"></span> Preparing reports, spreadsheet and project documentation.[cite: 1]</li>
-                        <li class="flex gap-4"><span class="block border-t border-black w-4 mt-3"></span> Maintaining accurate electronic records and project-related data.[cite: 1]</li>
-                        <li class="flex gap-4"><span class="block border-t border-black w-4 mt-3"></span> Performing data analysis and visualization using MS Excel.[cite: 1]</li>
-                        <li class="flex gap-4"><span class="block border-t border-black w-4 mt-3"></span> Preparing presentations and ensuring systematic organization of research documents.[cite: 1]</li>
-                    </ul>
+                    <!-- Experience Photos for Role 1 -->
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="border border-black overflow-hidden group aspect-square">
+                             <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=600" alt="Ocean Engineering Lab Work" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500">
+                        </div>
+                        <div class="border border-black overflow-hidden group aspect-square">
+                             <img src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=600" alt="Data Analysis and Visualization" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500">
+                        </div>
+                    </div>
                 </div>
+
                 <!-- Role 2 -->
-                <div>
-                    <div class="mb-6">
-                        <h3 class="text-2xl font-light uppercase">Quality Control Engineer[cite: 1]</h3>
-                        <p class="text-sm font-bold tracking-widest mt-2 uppercase">LV Life Sciences, Baddi, Himanchal Pradesh | Nov 2022 - Apr 2023[cite: 1]</p>
+                <div class="grid grid-cols-1 xl:grid-cols-2 gap-12 items-start pt-12 border-t border-gray-200">
+                    <div>
+                        <div class="mb-6">
+                            <h3 class="text-2xl font-light uppercase">Quality Control Engineer</h3>
+                            <p class="text-sm font-bold tracking-widest mt-2 uppercase text-gray-500">LV Life Sciences, Baddi, Himanchal Pradesh | Nov 2022 - Apr 2023</p>
+                        </div>
+                        <ul class="list-none space-y-4 text-lg">
+                            <li class="flex gap-4"><span class="block border-t border-black w-4 mt-3"></span> Conducted quality control testing using laboratory instruments.</li>
+                            <li class="flex gap-4"><span class="block border-t border-black w-4 mt-3"></span> Maintained laboratory records and electronic documentation.</li>
+                            <li class="flex gap-4"><span class="block border-t border-black w-4 mt-3"></span> Recorded and organized analytical data using computer systems.</li>
+                            <li class="flex gap-4"><span class="block border-t border-black w-4 mt-3"></span> Prepared quality reports and ensured documentation compliance.</li>
+                            <li class="flex gap-4"><span class="block border-t border-black w-4 mt-3"></span> Collaborated with team members to maintain quality standards.</li>
+                        </ul>
                     </div>
-                    <ul class="list-none space-y-4 text-lg">
-                        <li class="flex gap-4"><span class="block border-t border-black w-4 mt-3"></span> Conducted quality control testing using laboratory instruments.[cite: 1]</li>
-                        <li class="flex gap-4"><span class="block border-t border-black w-4 mt-3"></span> Maintained laboratory records and electronic documentation.[cite: 1]</li>
-                        <li class="flex gap-4"><span class="block border-t border-black w-4 mt-3"></span> Recorded and organized analytical data using computer systems.[cite: 1]</li>
-                        <li class="flex gap-4"><span class="block border-t border-black w-4 mt-3"></span> Prepared quality reports and ensured documentation compliance.[cite: 1]</li>
-                        <li class="flex gap-4"><span class="block border-t border-black w-4 mt-3"></span> Collaborated with team members to maintain quality standards.[cite: 1]</li>
-                    </ul>
+                    <!-- Experience Photos for Role 2 -->
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="border border-black overflow-hidden group aspect-square col-span-2">
+                             <img src="https://images.unsplash.com/photo-1574169208507-84376144848b?auto=format&fit=crop&q=80&w=1200" alt="Laboratory Quality Control" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500">
+                        </div>
+                    </div>
                 </div>
+
             </div>
         </div>
     </section>
@@ -102,14 +133,14 @@
             </div>
             <div class="md:col-span-3 space-y-12">
                 <div class="border-l-2 border-black pl-8 py-2">
-                    <h3 class="text-2xl font-light uppercase mb-2">Bachelor of Technology, Biotechnology[cite: 1]</h3>
-                    <p class="text-lg">Institute of Engineering and Technology, BU Jhansi, UP[cite: 1]</p>
-                    <p class="text-sm font-bold tracking-widest uppercase mt-4">Class of 2022 | CGPA 6.9/10[cite: 1]</p>
+                    <h3 class="text-2xl font-light uppercase mb-2">Bachelor of Technology, Biotechnology</h3>
+                    <p class="text-lg">Institute of Engineering and Technology, BU Jhansi, UP</p>
+                    <p class="text-sm font-bold tracking-widest uppercase mt-4">Class of 2022 | CGPA 6.9/10</p>
                 </div>
                 <div class="border-l-2 border-black pl-8 py-2">
-                    <h3 class="text-2xl font-light uppercase mb-2">Intermediate[cite: 1]</h3>
-                    <p class="text-lg">Sainik Inter College, Agra UP[cite: 1]</p>
-                    <p class="text-sm font-bold tracking-widest uppercase mt-4">Class of 2017[cite: 1]</p>
+                    <h3 class="text-2xl font-light uppercase mb-2">Intermediate</h3>
+                    <p class="text-lg">Sainik Inter College, Agra UP</p>
+                    <p class="text-sm font-bold tracking-widest uppercase mt-4">Class of 2017</p>
                 </div>
             </div>
         </div>
@@ -125,12 +156,12 @@
                 <!-- Project Card -->
                 <div class="border border-black p-10 hover:bg-black hover:text-white transition-colors duration-300 group cursor-pointer flex flex-col justify-between min-h-[300px]">
                     <div>
-                        <h3 class="text-2xl font-light uppercase mb-6 group-hover:border-white transition-colors duration-300">Microalgae as Feedstock for Biofuel Production[cite: 1]</h3>
+                        <h3 class="text-2xl font-light uppercase mb-6 group-hover:border-white transition-colors duration-300">Microalgae as Feedstock for Biofuel Production</h3>
                         <ul class="space-y-3 text-sm">
-                            <li class="flex gap-3"><span class="block border-t border-current w-3 mt-2"></span> Conducted literature review on biofuel production.[cite: 1]</li>
-                            <li class="flex gap-3"><span class="block border-t border-current w-3 mt-2"></span> Collected and analyzed experimental data.[cite: 1]</li>
-                            <li class="flex gap-3"><span class="block border-t border-current w-3 mt-2"></span> Prepared technical documentation and project report.[cite: 1]</li>
-                            <li class="flex gap-3"><span class="block border-t border-current w-3 mt-2"></span> Presented findings using PowerPoint.[cite: 1]</li>
+                            <li class="flex gap-3"><span class="block border-t border-current w-3 mt-2"></span> Conducted literature review on biofuel production.</li>
+                            <li class="flex gap-3"><span class="block border-t border-current w-3 mt-2"></span> Collected and analyzed experimental data.</li>
+                            <li class="flex gap-3"><span class="block border-t border-current w-3 mt-2"></span> Prepared technical documentation and project report.</li>
+                            <li class="flex gap-3"><span class="block border-t border-current w-3 mt-2"></span> Presented findings using PowerPoint.</li>
                         </ul>
                     </div>
                     <div class="mt-8">
@@ -154,53 +185,53 @@
             <div class="md:col-span-3 space-y-16">
                 <!-- Hard Skills -->
                 <div>
-                    <h3 class="uppercase tracking-widest text-xs font-bold mb-6 text-gray-500">Hard Skills[cite: 1]</h3>
+                    <h3 class="uppercase tracking-widest text-xs font-bold mb-6 text-gray-500">Hard Skills</h3>
                     <div class="flex flex-wrap gap-4 text-sm uppercase tracking-wider">
-                        <span class="border border-black px-4 py-2">MS Excel[cite: 1]</span>
-                        <span class="border border-black px-4 py-2">Word[cite: 1]</span>
-                        <span class="border border-black px-4 py-2">Power Point[cite: 1]</span>
-                        <span class="border border-black px-4 py-2">Google Workspace[cite: 1]</span>
-                        <span class="border border-black px-4 py-2">Bench-scale bioreactor[cite: 1]</span>
-                        <span class="border border-black px-4 py-2">Chromatography[cite: 1]</span>
-                        <span class="border border-black px-4 py-2">Centrifugation[cite: 1]</span>
+                        <span class="border border-black px-4 py-2 hover:bg-black hover:text-white transition-colors cursor-default">MS Excel</span>
+                        <span class="border border-black px-4 py-2 hover:bg-black hover:text-white transition-colors cursor-default">Word</span>
+                        <span class="border border-black px-4 py-2 hover:bg-black hover:text-white transition-colors cursor-default">Power Point</span>
+                        <span class="border border-black px-4 py-2 hover:bg-black hover:text-white transition-colors cursor-default">Google Workspace</span>
+                        <span class="border border-black px-4 py-2 hover:bg-black hover:text-white transition-colors cursor-default">Bench-scale bioreactor</span>
+                        <span class="border border-black px-4 py-2 hover:bg-black hover:text-white transition-colors cursor-default">Chromatography</span>
+                        <span class="border border-black px-4 py-2 hover:bg-black hover:text-white transition-colors cursor-default">Centrifugation</span>
                     </div>
                 </div>
 
                 <!-- Soft Skills -->
                 <div>
-                    <h3 class="uppercase tracking-widest text-xs font-bold mb-6 text-gray-500">Soft Skills[cite: 1]</h3>
+                    <h3 class="uppercase tracking-widest text-xs font-bold mb-6 text-gray-500">Soft Skills</h3>
                     <div class="flex flex-wrap gap-4 text-sm uppercase tracking-wider">
-                        <span class="border border-black px-4 py-2">Analytical Decision-Making[cite: 1]</span>
-                        <span class="border border-black px-4 py-2">Innovative Learner[cite: 1]</span>
-                        <span class="border border-black px-4 py-2">Time Management[cite: 1]</span>
-                        <span class="border border-black px-4 py-2">Team Collaboration[cite: 1]</span>
-                        <span class="border border-black px-4 py-2">Self-Motivated[cite: 1]</span>
+                        <span class="border border-black px-4 py-2 hover:bg-black hover:text-white transition-colors cursor-default">Analytical Decision-Making</span>
+                        <span class="border border-black px-4 py-2 hover:bg-black hover:text-white transition-colors cursor-default">Innovative Learner</span>
+                        <span class="border border-black px-4 py-2 hover:bg-black hover:text-white transition-colors cursor-default">Time Management</span>
+                        <span class="border border-black px-4 py-2 hover:bg-black hover:text-white transition-colors cursor-default">Team Collaboration</span>
+                        <span class="border border-black px-4 py-2 hover:bg-black hover:text-white transition-colors cursor-default">Self-Motivated</span>
                     </div>
                 </div>
 
                 <!-- Relevant Coursework -->
                 <div>
-                    <h3 class="uppercase tracking-widest text-xs font-bold mb-6 text-gray-500">Relevant Course Work[cite: 1]</h3>
+                    <h3 class="uppercase tracking-widest text-xs font-bold mb-6 text-gray-500">Relevant Course Work</h3>
                     <p class="text-lg leading-relaxed">
-                        Bioprocess Engineering, Biochemistry, Plant Biotechnology, Bioseparations and Down Stream Processing.[cite: 1]
+                        Bioprocess Engineering, Biochemistry, Plant Biotechnology, Bioseparations and Down Stream Processing.
                     </p>
                 </div>
                 
                 <!-- Workshops & Training -->
                 <div>
-                    <h3 class="uppercase tracking-widest text-xs font-bold mb-6 text-gray-500">Workshops & Training[cite: 1]</h3>
+                    <h3 class="uppercase tracking-widest text-xs font-bold mb-6 text-gray-500">Workshops & Training</h3>
                     <ul class="space-y-6 text-lg">
                         <li class="flex flex-col md:flex-row md:justify-between md:items-center border-b border-black pb-4">
-                            <span>Industrial Training in UV Spectroscopy[cite: 1]</span>
-                            <span class="text-sm font-bold tracking-widest uppercase mt-2 md:mt-0">Jun 2021 - 18 Jul 2021[cite: 1]</span>
+                            <span>Industrial Training in UV Spectroscopy</span>
+                            <span class="text-sm font-bold tracking-widest uppercase mt-2 md:mt-0">Jun 2021 - 18 Jul 2021</span>
                         </li>
                         <li class="flex flex-col md:flex-row md:justify-between md:items-center border-b border-black pb-4">
-                            <span>Data Structures Using C[cite: 1]</span>
-                            <span class="text-sm font-bold tracking-widest uppercase mt-2 md:mt-0">13 Dec 2019 - 14 Jan 2020[cite: 1]</span>
+                            <span>Data Structures Using C</span>
+                            <span class="text-sm font-bold tracking-widest uppercase mt-2 md:mt-0">13 Dec 2019 - 14 Jan 2020</span>
                         </li>
                         <li class="flex flex-col md:flex-row md:justify-between md:items-center border-b border-black pb-4">
-                            <span>Workshop on Environmental and Waste Management[cite: 1]</span>
-                            <span class="text-sm font-bold tracking-widest uppercase mt-2 md:mt-0">16 Mar 2019[cite: 1]</span>
+                            <span>Workshop on Environmental and Waste Management</span>
+                            <span class="text-sm font-bold tracking-widest uppercase mt-2 md:mt-0">16 Mar 2019</span>
                         </li>
                     </ul>
                 </div>
@@ -210,30 +241,48 @@
 
     <!-- Footer / Contact Section -->
     <footer id="contact" class="bg-black text-white py-32 px-8">
-        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-start md:items-end gap-16">
-            <div class="space-y-6">
-                <h2 class="text-4xl md:text-6xl font-light uppercase tracking-tighter mb-12">Let's Connect</h2>
-                <div>
-                    <p class="text-xs font-bold uppercase tracking-widest text-gray-400 mb-2">Location</p>
-                    <p class="text-xl">Chennai TN 600113[cite: 1]</p>
-                </div>
-                <div>
-                    <p class="text-xs font-bold uppercase tracking-widest text-gray-400 mb-2">Phone</p>
-                    <a href="tel:8081632902" class="text-xl hover:underline underline-offset-4">8081632902[cite: 1]</a>
-                </div>
-                <div>
-                    <p class="text-xs font-bold uppercase tracking-widest text-gray-400 mb-2">Email</p>
-                    <a href="mailto:kmarti312000@gmail.com" class="text-xl hover:underline underline-offset-4">kmarti312000@gmail.com[cite: 1]</a>
+        <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16">
+            
+            <!-- Contact Details -->
+            <div class="space-y-12">
+                <h2 class="text-5xl md:text-7xl font-light uppercase tracking-tighter">Let's Connect</h2>
+                
+                <div class="space-y-6">
+                    <div>
+                        <p class="text-xs font-bold uppercase tracking-widest text-gray-400 mb-2">Location</p>
+                        <p class="text-xl">Chennai TN 600113</p>
+                    </div>
+                    <div>
+                        <p class="text-xs font-bold uppercase tracking-widest text-gray-400 mb-2">Phone</p>
+                        <a href="tel:8081632902" class="text-xl hover:underline underline-offset-4">8081632902</a>
+                    </div>
+                    <div>
+                        <p class="text-xs font-bold uppercase tracking-widest text-gray-400 mb-2">Email</p>
+                        <a href="mailto:kmarti312000@gmail.com" class="text-xl hover:underline underline-offset-4">kmarti312000@gmail.com</a>
+                    </div>
                 </div>
             </div>
             
-            <div class="flex flex-col items-start md:items-end gap-8">
-                <div class="flex gap-6">
-                    <!-- Placeholder link for LinkedIn as specified in system instructions -->
-                    <a href="#" class="uppercase tracking-widest text-sm font-bold border border-white px-8 py-3 hover:bg-white hover:text-black transition-colors duration-300">LinkedIn</a>
+            <!-- Social Links & Copyright -->
+            <div class="flex flex-col justify-between lg:items-end">
+                <div class="w-full lg:w-auto flex flex-col gap-4 mt-8 lg:mt-0">
+                    <p class="text-xs font-bold uppercase tracking-widest text-gray-400 mb-2 lg:text-right">Social Profiles</p>
+                    
+                    <!-- Replace the '#' in href with your actual URLs -->
+                    <a href="#" target="_blank" class="block w-full lg:w-64 text-center uppercase tracking-widest text-sm font-bold border border-white px-8 py-4 hover:bg-white hover:text-black transition-colors duration-300">
+                        LinkedIn
+                    </a>
+                    <a href="#" target="_blank" class="block w-full lg:w-64 text-center uppercase tracking-widest text-sm font-bold border border-white px-8 py-4 hover:bg-white hover:text-black transition-colors duration-300">
+                        Instagram
+                    </a>
+                    <a href="#" target="_blank" class="block w-full lg:w-64 text-center uppercase tracking-widest text-sm font-bold border border-white px-8 py-4 hover:bg-white hover:text-black transition-colors duration-300">
+                        YouTube
+                    </a>
                 </div>
-                <p class="text-sm text-gray-500 uppercase tracking-widest mt-8 md:mt-0">&copy; 2026 KM Arti. All rights reserved.</p>
+                
+                <p class="text-sm text-gray-500 uppercase tracking-widest mt-16 lg:mt-0">&copy; 2026 KM Arti. All rights reserved.</p>
             </div>
+
         </div>
     </footer>
 
